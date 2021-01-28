@@ -36,7 +36,14 @@
   - they do not retain their values from one call to the next
 - external variables
   - it must be defined outside of any function
-  - 
+- syntatically, external definitions are just like definitions of local variables
+- `extern`
+  - the name of the variable is made known to the function
+  - when it can be omitted:
+    - when the def of an external var occurs in the source file before its use in a particular function
+- definition vs. declaration
+  - definition: the place where the variable is created or assigned storage
+  - declaration: places where the nature of the variable is stated but no storage is allocated
 
 <br/> 
 
